@@ -1,5 +1,5 @@
 
-FROM circleci/node:10.16
+FROM circleci/node:10.23
 
 RUN sudo apt-get update && sudo apt-get install -y jq python-dev libpython-dev python-pip curl 
 
